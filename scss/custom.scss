@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/yvw8xab.css");
+
+
+$body-bg: #e09f3e;
+
+
+
+$primary: #C1121F;
+$secondary: #e09f3e;
+$success: #b7e3cc;
+$info: #c4ffb2;
+$warning: #d6f7a3;
+$danger: #dd7596;
+$light: #f2f2f2;
+$dark: #404e5c;
+
+
+$navbar-light-color: white;
+$navbar-light-hover-color: #e09f3e;
+$navbar-light-active-color: #e09f3e;
+
+
+$font-family-sans-serif: "Gill Sans", sans-serif;
+$headings-font-family: "Gill Sans";
+
+
+$h1-font-size: 47.78pt;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.75;
+
+
+$line-height-base: 1.6;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Then add additional custom code here
+#hero {
+    background-image: url(../images/hero-image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+#hero .d-flex{
+    height: 50vh;
+   }
+
+#hero {
+    background-image: url(../images/hero-image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+#hero .d-flex{
+    height: 50vh;
+   }
+
+
+
